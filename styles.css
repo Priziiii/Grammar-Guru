@@ -1,0 +1,135 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to bottom right, #1a1a1a, #333333); /* Dark gradient background */
+    color: #f1f1f1; /* Light text color for contrast */
+}
+
+/* Navigation Bar */
+.navbar {
+    background: linear-gradient(to right, #222831, #393E46); /* Dark gray gradient */
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #f1f1f1;
+    margin-left: 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #FFC107; /* Yellow on hover */
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(to right, #0f2027, #2c5364); /* Darker gradient */
+    padding: 50px 20px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    color: #f1f1f1;
+}
+
+.hero-section h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #FFC107; /* Vibrant yellow for emphasis */
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+}
+
+/* Gradient Card */
+.gradient-card {
+    background: linear-gradient(to bottom right, #1F1F1F, #3E3E3E); /* Dark gray gradient */
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+    color: #f1f1f1;
+}
+
+.gradient-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.9);
+}
+
+/* Textarea Styling */
+textarea {
+    border-radius: 8px;
+    border: 2px solid #444444; /* Darker border */
+    padding: 10px;
+    background-color: #2c2c2c; /* Dark background for textarea */
+    color: #ffffff; /* White text for contrast */
+    transition: border-color 0.3s, box-shadow 0.3s;
+    resize: vertical; /* Allow vertical resizing only */
+    min-height: 100px; /* Set a minimum height */
+    max-height: 400px; /* Set a maximum height */
+}
+
+textarea:focus {
+    border-color: #FFC107; /* Yellow border on focus for a vibrant effect */
+    box-shadow: 0 0 10px rgba(255, 193, 7, 0.7); /* Subtle yellow glow */
+    outline: none;
+}
+
+/* Corrected Text & Grammar Mistakes Styling */
+.corrected-text {
+    font-size: 1rem;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay for better contrast */
+    color: #FFF;
+    border-left: 4px solid #FFC107;
+}
+
+.corrected-text.text-warning {
+    background-color: rgba(0, 0, 0, 0.8); /* Darker overlay */
+    color: #FFC107;
+    border-left: 4px solid #FF8008;
+}
+
+
+/* Button Styling */
+button {
+    font-size: 1.2rem;
+    padding: 12px 25px;
+    border-radius: 25px;
+    background: linear-gradient(to right, #3a3b3c, #6a6b6c); /* Dark button gradient */
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to right, #FFC107, #FF5722); /* Yellow-to-orange gradient on hover */
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(to right, #0d0d0d, #262626); /* Dark footer background */
+    color: #f1f1f1;
+    padding: 15px 0;
+    text-align: center;
+}
+
+footer .social-icons a {
+    color: #f1f1f1;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+    color: #FFC107; /* Yellow on hover */
+}
